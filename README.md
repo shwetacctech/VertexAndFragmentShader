@@ -28,4 +28,26 @@ void main() {
     gl_Position = matrix * translatedPosition;
 }
 ```
+# GLSL Fragment Shader Example
+
+This repository contains an example of a GLSL fragment shader written in the OpenGL Shading Language (GLSL).
+
+## Description
+
+The provided GLSL code represents a basic fragment shader. It sets a constant color to all pixels rendered by the fragment shader.
+
+### Code Explanation
+
+The fragment shader code performs the following task:
+- Assigns a color to the built-in variable `gl_FragColor` to output a constant color for all fragments.
+
+### Code Snippet
+
+```glsl
+varying lowp vec4 col;
+
+void main() {
+    gl_FragColor = vec4(0, 1, 1, 1); // Outputs a constant cyan color
+}
+```
 ![image](https://github.com/shwetacctech/VertexAndFragmentShader/assets/149310316/7da91091-273b-4ebe-b078-0563737ae199)
