@@ -62,3 +62,14 @@ int main() {
 
     return 0;
 }
+# Line Class for 3D Points
+
+This C++ class represents a line in a 3D space by defining two 3D points. It provides methods to manipulate and retrieve information about these points.
+
+## Class: Line
+
+### Constructor
+
+```cpp
+Line::Line(Point3D p1, Point3D p2);
+```
